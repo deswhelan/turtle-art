@@ -36,7 +36,6 @@ def paint_dot_painting(dot_size, gap_size, row_count, column_count):
 
     for row_number in range(row_count):
         print_row_of_dots(dot_size, step_size, column_count, colour_palette)
-        donatello.home()
         donatello.setpos(dot_1_x_pos, (dot_1_y_pos + (step_size * (row_number + 1))))
 
     donatello.home()
